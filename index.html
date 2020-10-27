@@ -10,17 +10,29 @@
   </head>
   <body>
     <header>
-      <section class="header-top">
-        <div class="container clearfix">
-          <h1 class="text-center">Start bootstrap</h1>
-          <ul>
-            <li><a href="#"><b>Portfolio</b></a></li>
-            <li><a href="#"><b>About</b></a></li>
-            <li><a href="#"><b>Contact</b></a></li>
-          </ul>
+      <div class="header_top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6">
+              <h1 class="text-uppercase">Start Bootstrap</h1>
+            </div>
+            <div class="col-xs-6 text-right">
+              <a href="#" class="visible-xs-inline-block"><i class="fas fa-bars"></i></a>
+              <ul class="list_inline hidden-xs">
+                <li>
+                  <a href="#">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-
-      </section>
+      </div>
       <section class="header-bottom">
           <div class="avatar">
             <img id="man"src="img/avatar.svg" alt="avatar">
@@ -31,14 +43,14 @@
             <span class="glyphicon glyphicon-star text-center" aria-hidden="true"></span>
             <hr class="line">
           </div>
-          <span>Graphic Artist - Web Designer - Illustrator</span>
+          <span class="text_size_desc">Graphic Artist - Web Designer - Illustrator</span>
       </section>
     </header>
 
     <main>
       <!-- container portfolio -->
       <section id="portfolio">
-        <h3 class="text-center text-uppercase color_blue"><strong>Portfolio</strong></h3>
+        <h3 class="text-center text-uppercase color_blue text_sixe"><strong>Portfolio</strong></h3>
         <div class="star">
           <hr class="line">
           <span class="glyphicon glyphicon-star text-center color_blue" aria-hidden="true"></span>
@@ -83,7 +95,7 @@
       <!-- container about -->
       <section id="about">
         <div class="wrapper_70">
-          <h3 class="text-uppercase text-center"><strong>About</strong></h3>
+          <h3 class="text-uppercase text-center text_sixe"><strong>About</strong></h3>
           <div class="star">
             <hr class="line">
             <span class="glyphicon glyphicon-star text-center" aria-hidden="true"></span>
@@ -93,10 +105,10 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12 col-md-6">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                <p class="text_size_desc">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
               </div>
               <div class="col-xs-12 col-md-6">
-                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                <p class="text_size_desc">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
               </div>
             </div>
           </div>
@@ -107,7 +119,7 @@
       <!-- container contact -->
       <section id="contact">
         <div class="wrapper_70">
-          <h3 class="text-center text-uppercase color_blue"><strong>Contact me</strong></h3>
+          <h3 class="text-center text-uppercase color_blue text_sixe"><strong>Contact me</strong></h3>
           <div class="star">
             <hr class="line">
             <span class="glyphicon glyphicon-star text-center color_blue" aria-hidden="true"></span>
@@ -145,7 +157,7 @@
           <div class="row">
             <div class="col-xs-12 col-md-4">
               <h4 class="text-uppercase"><strong>Location</strong></h4>
-              <span>2215 John Daniel Drive Clark, MO 65243</span>
+              <span class="text_size_desc">2215 John Daniel Drive Clark, MO 65243</span>
             </div>
             <div class="col-xs-12 col-md-4">
               <h4 class="text-uppercase"><strong>Around The Web</strong></h4>
@@ -174,7 +186,7 @@
             </div>
             <div class="col-xs-12 col-md-4">
               <h4 class="text-uppercase"><strong>About Freelancer</strong></h4>
-              <span>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#">Start Bootstrap</a>.</span>
+              <span class="text_size_desc">Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#">Start Bootstrap</a>.</span>
             </div>
           </div>
         </div>
