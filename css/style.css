@@ -18,9 +18,15 @@ h3 {
   padding: 30px;
 }
 h4 {
-
   padding: 30px;
   color: white;
+}
+.wrapper_40 {
+  width: 40%;
+  margin: 0 auto;
+}
+.color_blue {
+  color: #2C3E50;
 }
 .line {
   display: inline-block;
@@ -75,9 +81,6 @@ h4 {
 #portfolio .star .line {
   border: 2px solid #2C3E50;
 }
-#portfolio .star span {
-  color: #2C3E50;
-}
 
 .portfolio_item {
   height: 300px;
@@ -93,22 +96,16 @@ h4 {
   background-color: #19bd9b;
   color: white;
 }
-.wrapper {
-  width: 40%;
-  margin: 0 auto;
-}
+
 #about .star span {
   color: white;
 }
 #contact {
   height: 600px;
-  padding: 50px;
+  padding: 50px 0;
 }
 #contact .star .line {
   border: 2px solid #2C3E50;
-}
-#contact .star span {
-  color: #2C3E50;
 }
 
 .footer-top {
